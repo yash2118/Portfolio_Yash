@@ -9,7 +9,7 @@ export const ABOUT_TEXT = `Dedicated to innovation, I combine technical expertis
 
 export const EXPERIENCES = [
   {
-    year: "June 2024 - July 2024",
+    year: "May 2024 - June 2024",
     role: "Data Analyst Intern",
     company: "Tridhya Tech",
     description: `Analyzed market trends and developed actionable insights using Power BI, enabling data-driven strategic planning for market entry decisions in Singapore and the USA. Conducted comprehensive industry analysis to identify challenges, solutions, and key tech players in five major industries.`,
@@ -45,6 +45,7 @@ export const PROJECTS = [
     description:
       "Developed a LinkedIn Post Generator using LLM and MongoDB to dynamically create posts based on influencer data and topics, integrating a Streamlit interface for real-time customization and content generation.",
     technologies: ["LLM", "MongoDB", "Streamlit", "Python", "APIs"],
+    githubLink: "https://github.com/yash2118/LinkedinPostGenerator",
   },
   {
     title: "Real Time Stock Market Data Analysis",
@@ -52,6 +53,7 @@ export const PROJECTS = [
     description:
       "Built a real-time stock market analysis data engineering pipeline using Apache Kafka and AWS services (S3, Glue, Athena) for efficient storage, querying, and continuous data flow to analyze stock trends.",
     technologies: ["Apache Kafka", "AWS (S3, Glue, Athena)", "Python"],
+    githubLink: "https://github.com/yash2118/LinkedinPostGenerator",
   },
   {
     title: "Movie Recommendation System",
@@ -59,13 +61,15 @@ export const PROJECTS = [
     description:
       "Developed a personalized movie recommendation system using cosine similarity on Kaggle datasets, and implemented a Flask web interface to provide seamless user interaction and movie suggestions.",
     technologies: ["Python", "Flask", "Cosine Similarity", "Data Processing"],
+    githubLink: "https://github.com/yash2118/MovieRecommendation",
   },
   {
-    title: "ShopEase",
+    title: "NewsApp",
     image: project4,
     description:
-      "Developed a fully functional eCommerce website using the MERN stack, featuring user authentication, RESTful APIs for product and cart management, and an admin panel. Optimized the user interface with React.js and backend performance with Node.js and MongoDB.",
-    technologies: ["APIs", "MongoDB", "React.js", "Express.js", "Node.js"],
+      "A React-based News Web App that fetches real-time news using NewsAPI, allowing users to explore articles across multiple categories like Business, Health, Technology, and more for a seamless browsing experience.",
+    technologies: ["APIs", "MongoDB", "React.js", "Node.js"],
+    githubLink: "https://github.com/yash2118/NewsApp",
   },
 ];
 
