@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `Passionate software engineer with expertise in data science, machine learning, and building scalable applications. Skilled in real-time data solutions, secure systems, and advanced analytics, committed to innovation and delivering impactful user experiences through data-driven decision-making.`;
+export const HERO_CONTENT = `Passionate data scientist with expertise in machine learning, real-time analytics, and data-driven decision-making. Skilled in building scalable solutions, uncovering insights from complex data, and driving innovation through advanced analytics.`;
 
-export const ABOUT_TEXT = `Dedicated to innovation, I combine technical expertise with a creative mindset to build intelligent solutions that enhance user experiences and drive business value. With a commitment to continuous learning, I aim to stay at the forefront of technology while contributing to meaningful projects that make a difference.`;
+export const ABOUT_TEXT = `Driven by innovation, I blend technical expertise with a creative mindset to develop intelligent, data-driven solutions that enhance user experiences and deliver measurable business value. With a strong foundation in data science, machine learning, and real-time analytics, I thrive on uncovering meaningful insights from complex data. Committed to continuous learning, I stay at the forefront of emerging technologies, leveraging advanced analytics and scalable systems to solve real-world challenges. My goal is to contribute to impactful projects that drive efficiency, innovation, and informed decision-making.`;
 
 export const EXPERIENCES = [
   {
