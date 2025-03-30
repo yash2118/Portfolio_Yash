@@ -1,9 +1,10 @@
 import { RiReactjsFill } from "react-icons/ri"
-import { TbBrandNextjs } from "react-icons/tb"
 import { SiMongodb } from "react-icons/si"
-import { DiRedis } from "react-icons/di"
-import { FaNodeJs } from "react-icons/fa"
+import { FaPython } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { FaAws } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi"
+import { IoLogoTableau } from "react-icons/io5";
 import { motion } from "framer-motion"
 
 const iconVariants
@@ -28,20 +29,23 @@ const Technologies = () => {
             <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
                 <RiReactjsFill className="text-7xl text-cyan-400"/>
             </motion.div>
-            <motion.div variants={iconVariants(5)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
-                <TbBrandNextjs className="text-7xl"/>
+            <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+                <FaPython className="text-7xl text-yellow-500"/>
             </motion.div>
             <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiMongodb className="text-7xl text-green-500"/>
             </motion.div>
-            <motion.div variants={iconVariants(6)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
-                <DiRedis className="text-7xl text-red-700"/>
-            </motion.div>
             <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaNodeJs className="text-7xl text-green-500"/>
+                <FaNodeJs className="text-7xl text-white-500"/>
             </motion.div>
             <motion.div variants={iconVariants(7)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
                 <BiLogoPostgresql className="text-7xl text-sky-700"/>
+            </motion.div>
+            <motion.div variants={iconVariants(7)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+                <IoLogoTableau className="text-7xl text-red-700"/>
+            </motion.div>
+            <motion.div variants={iconVariants(7)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
+                <FaAws className="text-7xl text-white-700"/>
             </motion.div>
         </motion.div>
     </div>

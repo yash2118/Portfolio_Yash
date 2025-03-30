@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `Passionate data scientist with expertise in machine learning, real-time analytics, and data-driven decision-making. Skilled in building scalable solutions, uncovering insights from complex data, and driving innovation through advanced analytics.`;
+export const HERO_CONTENT = `Passionate about data science, I excel in machine learning, real-time analytics, and transforming data into actionable insights for impactful solutions. I thrive on uncovering patterns in complex data and building scalable solutions that drive innovation. Additionally, I explore opportunities in software development, leveraging analytical and problem-solving skills to create meaningful technological advancements.`;
 
 export const ABOUT_TEXT = `Driven by innovation, I blend technical expertise with a creative mindset to develop intelligent, data-driven solutions that enhance user experiences and deliver measurable business value. With a strong foundation in data science, machine learning, and real-time analytics, I thrive on uncovering meaningful insights from complex data. Committed to continuous learning, I stay at the forefront of emerging technologies, leveraging advanced analytics and scalable systems to solve real-world challenges. My goal is to contribute to impactful projects that drive efficiency, innovation, and informed decision-making.`;
 
