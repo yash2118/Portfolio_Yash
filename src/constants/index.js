@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.jpg";
 
 export const HERO_CONTENT = `Passionate about data science, I excel in machine learning, real-time analytics, and transforming data into actionable insights for impactful solutions. I thrive on uncovering patterns in complex data and building scalable solutions that drive innovation. Additionally, I explore opportunities in software development, leveraging analytical and problem-solving skills to create meaningful technological advancements.`;
 
@@ -39,9 +41,26 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  
+  {
+    title: "Gamora Labs - AI Academic Assistant and Mentor Platform",
+    image: project1,
+    description:
+      "Developed an AI-powered assistant using Google's Gemini 1.5 Pro to enable natural language queries on UTD's academic data via the Nebula API. Built a secure Streamlit interface with MySQL backend to fetch course, professor, and scheduling information. Integrated a Mentor-Mentee matching system to foster peer-to-peer academic support, with features for mentor registration, session booking, and secure authentication using bcrypt.",
+    technologies: ["Python", "Streamlit", "Gemini 1.5 Pro", "MySQL", "Pandas", "bcrypt"],
+    githubLink: "https://github.com/yash2118/GamoraLabs"
+  },
+  {
+    title: "Healthcare Cost Prediction & Insurance Optimization Tool",
+    image: project2,
+    description:
+      "Developed an AI-powered app using Python, Streamlit, and Scikit-learn to predict individual healthcare costs, classify patients into risk tiers, and recommend proactive care strategies. Integrated SHAP for explainable AI, a premium optimization module, and smoking cessation impact analysis to support data-driven insurance pricing and portfolio management.",
+    technologies: ["Python", "Streamlit", "Scikit-learn", "SHAP", "Matplotlib", "Pandas", "Joblib"],
+    githubLink: "https://github.com/yash2118/Healthcare_Cost_Predictor"
+  },
   {
     title: "Linkedin Posts Generator",
-    image: project1,
+    image: project3,
     description:
       "Developed a LinkedIn Post Generator using LLM and MongoDB to dynamically create posts based on influencer data and topics, integrating a Streamlit interface for real-time customization and content generation.",
     technologies: ["LLM", "MongoDB", "Streamlit", "Python", "APIs"],
@@ -49,7 +68,7 @@ export const PROJECTS = [
   },
   {
     title: "Real Time Stock Market Data Analysis",
-    image: project2,
+    image: project4,
     description:
       "Built a real-time stock market analysis data engineering pipeline using Apache Kafka and AWS services (S3, Glue, Athena) for efficient storage, querying, and continuous data flow to analyze stock trends.",
     technologies: ["Apache Kafka", "AWS (S3, Glue, Athena)", "Python"],
@@ -57,7 +76,7 @@ export const PROJECTS = [
   },
   {
     title: "Movie Recommendation System",
-    image: project3,
+    image: project5,
     description:
       "Developed a personalized movie recommendation system using cosine similarity on Kaggle datasets, and implemented a Flask web interface to provide seamless user interaction and movie suggestions.",
     technologies: ["Python", "Flask", "Cosine Similarity", "Data Processing"],
@@ -65,7 +84,7 @@ export const PROJECTS = [
   },
   {
     title: "NewsApp",
-    image: project4,
+    image: project6,
     description:
       "A React-based News Web App that fetches real-time news using NewsAPI, allowing users to explore articles across multiple categories like Business, Health, Technology, and more for a seamless browsing experience.",
     technologies: ["APIs", "MongoDB", "React.js", "Node.js"],
