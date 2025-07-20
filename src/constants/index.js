@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.jpg";
 import project7 from "../assets/projects/project-7.jpg";
+import project8 from "../assets/projects/project-8.jpg"
 export const HERO_CONTENT = `Passionate about data science, I excel in machine learning, real-time analytics, and transforming data into actionable insights for impactful solutions. I thrive on uncovering patterns in complex data and building scalable solutions that drive innovation. Additionally, I explore opportunities in software development, leveraging analytical and problem-solving skills to create meaningful technological advancements.`;
 
 export const ABOUT_TEXT = `Driven by innovation, I blend technical expertise with a creative mindset to develop intelligent, data-driven solutions that enhance user experiences and deliver measurable business value. With a strong foundation in data science, machine learning, and real-time analytics, I thrive on uncovering meaningful insights from complex data. Committed to continuous learning, I stay at the forefront of emerging technologies, leveraging advanced analytics and scalable systems to solve real-world challenges. My goal is to contribute to impactful projects that drive efficiency, innovation, and informed decision-making.`;
@@ -50,7 +51,14 @@ export const PROJECTS = [
   technologies: ["Python", "R", "Pandas", "Matplotlib", "Seaborn", "Movality®", "Statistical Analysis"],
   githubLink: "https://github.com/yash2118/LineDanceAI"
 },
-
+{
+    title: "PricePulse",
+    image: project8,
+    description:
+      "Developed a Streamlit web app with Gemini AI integration for real-time price intelligence across countries. Features include: dynamic currency conversion, trend analysis, local store inventory checks, and social media sentiment tracking—delivering optimal shopping decisions through data automation.",
+    technologies: ["Python", "Streamlit", "Gemini 1.5 Pro", "Matplotlib", "API"],
+    githubLink: "https://github.com/yash2118/PricePulse"
+  },
   {
     title: "Gamora Labs - AI Academic Assistant and Mentor Platform",
     image: project1,
