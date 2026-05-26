@@ -76,22 +76,6 @@ export const PROJECTS = [
     githubLink: "https://github.com/yash2118/Healthcare_Cost_Predictor"
   },
   {
-    title: "Linkedin Posts Generator",
-    image: project3,
-    description:
-      "Developed a LinkedIn Post Generator using LLM and MongoDB to dynamically create posts based on influencer data and topics, integrating a Streamlit interface for real-time customization and content generation.",
-    technologies: ["LLM", "MongoDB", "Streamlit", "Python", "APIs"],
-    githubLink: "https://github.com/yash2118/LinkedinPostGenerator",
-  },
-  {
-    title: "Real Time Stock Market Data Analysis",
-    image: project4,
-    description:
-      "Built a real-time stock market analysis data engineering pipeline using Apache Kafka and AWS services (S3, Glue, Athena) for efficient storage, querying, and continuous data flow to analyze stock trends.",
-    technologies: ["Apache Kafka", "AWS (S3, Glue, Athena)", "Python"],
-    githubLink: "https://github.com/yash2118/LinkedinPostGenerator",
-  },
-  {
     title: "Movie Recommendation System",
     image: project5,
     description:
