@@ -42,15 +42,6 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-  title: "Algorithm Validation Study – linedanceAI (via UTD Biotech Club)",
-  image: project7,
-  description: 
-    "Collaborated on a cross-functional team to collect and analyze movement and health data from 179 participants using Movality®, performing feature engineering, statistical analysis (Python, R), and delivering insights through data visualization and reporting."
-  ,
-  technologies: ["Python", "R", "Pandas", "Matplotlib", "Seaborn", "Movality®", "Statistical Analysis"],
-  githubLink: "https://github.com/yash2118/LineDanceAI"
-},
 {
     title: "PricePulse",
     image: project8,
